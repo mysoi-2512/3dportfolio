@@ -164,7 +164,7 @@ import {
         }
       ],
       image: todoapp,
-      demo_Link: "",
+      demo_link: "https://todospring.netlify.app/",
       source_code_link: "https://github.com/mysoi-2512/todospringapp",
     },
     {
@@ -186,7 +186,7 @@ import {
         },
       ],
       image: mspanda,
-      demo_Link: "https://mspanda.netlify.app/",
+      demo_link: "https://mspanda.netlify.app/",
       source_code_link: "https://github.com/mysoi-2512/mspanda.edu.vn",
     },
     {
@@ -208,8 +208,8 @@ import {
         },
       ],
       image: portfolio,
-      demo_Link: "",
-      source_code_link: "https://github.com/",
+      demo_link: "https://themusclecat.netlify.app/",
+      source_code_link: "https://github.com/mysoi-2512/3dportfolio",
     },
   ];
   
