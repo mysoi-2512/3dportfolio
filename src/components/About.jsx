@@ -48,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a software developer with experience in Java and JavaScript, and have used libraries & frameworks like React, Tailwind, Spring and Spring Boot. I'm a quick learner and interested in collaborating closely with clients and teammates to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring ideas become money!
+        I'm a software developer with experience in Java, JavaScript, MySQL, and have used libraries & frameworks like React, Angular, Tailwind, Spring and Spring Boot. I'm a quick learner and interested in collaborating closely with clients and teammates to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring ideas become money!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

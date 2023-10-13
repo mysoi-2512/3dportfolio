@@ -17,7 +17,8 @@ import {
     mspanda,
     portfolio,
     todoapp,
-    java_svg
+    java_svg,
+    ecommerce
   } from "../assets";
   
   export const navLinks = [
@@ -142,6 +143,32 @@ import {
   
   const projects = [
     {
+      name: "Ecommerce Web",
+      description:
+        "Full stack Ecommerce Application with Spring Boot, Angular, Restful API, MySQL with features such as: Authentication with Okta, Checkout & Credit Card processing with Stripe, Orders History, HTTPS",
+      tags: [
+        {
+          name: "angular",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "spring",
+          color: "green-text-gradient",
+        },
+        {
+          name: "okta",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "stripe",
+          color: "orange-text-gradient",
+        }
+      ],
+      image: ecommerce,
+      demo_link: "https://github.com/mysoi-2512/ecommerce-angular",
+      source_code_link: "https://github.com/mysoi-2512/ecommerce-spring",
+    },
+    {
       name: "Todo App",
       description:
         "Full stack Application with Spring Boot and React that allow user to login/logout, create, update, read and delete todo.",
@@ -188,29 +215,7 @@ import {
       image: mspanda,
       demo_link: "https://mspanda.netlify.app/",
       source_code_link: "https://github.com/mysoi-2512/mspanda.edu.vn",
-    },
-    {
-      name: "My Portfolio",
-      description:
-        "A website that help show my skills, projects, experiences and my serious attitude to pursue this job.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "green-text-gradient",
-        },
-        {
-          name: "netlify",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: portfolio,
-      demo_link: "https://themusclecat.netlify.app/",
-      source_code_link: "https://github.com/mysoi-2512/3dportfolio",
-    },
+    }
   ];
   
   export { services, technologies, experiences, certifications, projects };

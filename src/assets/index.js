@@ -45,6 +45,8 @@ import linkedin from "./linkedin.png";
 
 import java_svg from "./java.svg";
 
+import ecommerce from './ecommerce.png';
+
 
 export {
   logo,
@@ -88,5 +90,6 @@ export {
 
   linkedin,
 
-  java_svg
+  java_svg,
+  ecommerce
 };
