@@ -18,7 +18,8 @@ import {
     portfolio,
     todoapp,
     java_svg,
-    ecommerce
+    ecommerce,
+    hotelbooking
   } from "../assets";
   
   export const navLinks = [
@@ -143,6 +144,28 @@ import {
   
   const projects = [
     {
+      name: "Hotel Booking App",
+      description:
+        "Full stack Hotel Booking app with Spring, Spring Boot, Spring Security, ReactJS, MySQL: User Authentication and Authorization, Room Listing and Filtering, Room Booking, User Profile, and Admin Panel.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "spring",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "pink-text-gradient",
+        }
+      ],
+      image: hotelbooking,
+      demo_link: "https://github.com/mysoi-2512/hotelbooking-client",
+      source_code_link: "https://github.com/mysoi-2512/hotelbooking-server",
+    },
+    {
       name: "Ecommerce Web",
       description:
         "Full stack Ecommerce Application with Spring Boot, Angular, Restful API, MySQL with features such as: Authentication with Okta, Checkout & Credit Card processing with Stripe, Orders History, HTTPS",
@@ -167,33 +190,7 @@ import {
       image: ecommerce,
       demo_link: "https://github.com/mysoi-2512/ecommerce-angular",
       source_code_link: "https://github.com/mysoi-2512/ecommerce-spring",
-    },
-    {
-      name: "Todo App",
-      description:
-        "Full stack Application with Spring Boot and React that allow user to login/logout, create, update, read and delete todo.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "spring",
-          color: "green-text-gradient",
-        },
-        {
-          name: "azure",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "netlify",
-          color: "orange-text-gradient",
-        }
-      ],
-      image: todoapp,
-      demo_link: "https://todospring.netlify.app/",
-      source_code_link: "https://github.com/mysoi-2512/todospringapp",
-    },
+    },    
     {
       name: "English Class",
       description:

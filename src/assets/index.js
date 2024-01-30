@@ -46,6 +46,7 @@ import linkedin from "./linkedin.png";
 import java_svg from "./java.svg";
 
 import ecommerce from './ecommerce.png';
+import hotelbooking from './hotelbooking.png'
 
 
 export {
@@ -91,5 +92,6 @@ export {
   linkedin,
 
   java_svg,
-  ecommerce
+  ecommerce,
+  hotelbooking
 };
